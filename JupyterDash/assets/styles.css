@@ -1,0 +1,85 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: rgb(38, 177, 147);
+    text-align: center;
+}
+
+#k-slider {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#k-slider .rc-slider-track,
+#k-slider .rc-slider-handle,
+#k-slider .rc-slider-rail,
+#k-slider .rc-slider-dot,
+#k-slider .rc-slider-dot-active,
+#k-slider .rc-slider-mark,
+#k-slider .rc-slider-mark-active,
+#k-slider .rc-slider-step {
+    background-color: #0000FF;
+}
+
+#k-slider .rc-slider-handle,
+#k-slider .rc-slider-handle:focus {
+    border-color: #0000FF;
+    box-shadow: 0 0 0 5px rgba(0, 0, 255, 0.1);
+}
+
+#k-slider .rc-slider-handle:active {
+    box-shadow: 0 0 0 10px rgba(0, 0, 255, 0.1);
+}
+
+#k-slider .rc-slider-tooltip,
+#k-slider .rc-slider-tooltip-inner {
+    background-color: #0000FF;
+    border-color: #0000FF;
+    color: white;
+}
+
+#k-slider .rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow,
+#k-slider .rc-slider-tooltip-placement-bottom .rc-slider-tooltip-arrow,
+#k-slider .rc-slider-tooltip-placement-left .rc-slider-tooltip-arrow,
+#k-slider .rc-slider-tooltip-placement-right .rc-slider-tooltip-arrow,
+#k-slider .rc-slider-tooltip-placement-topLeft .rc-slider-tooltip-arrow,
+#k-slider .rc-slider-tooltip-placement-bottomLeft .rc-slider-tooltip-arrow,
+#k-slider .rc-slider-tooltip-placement-topRight .rc-slider-tooltip-arrow,
+#k-slider .rc-slider-tooltip-placement-bottomRight .rc-slider-tooltip-arrow {
+    border-color: #0000FF;
+}
+
+#bar-chart,
+#pca-scatter {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+body {
+    background-color: #000000;
+    background-image: url('usa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#trim-button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+#trim-button:hover,
+#trim-button:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
