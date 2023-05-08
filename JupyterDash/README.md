@@ -8,7 +8,7 @@ This project showcases an interactive dashboard created using Jupyter Dash to an
 
 ## Getting Started
 
-To run this project, you need to have Jupyter Dash installed. Clone the repository and open the [Jupyter Dash app file](JupyterDash/app.py). Ensure that the required packages mentioned in the previous sections are installed in your Python environment.
+To run this project, you need to have Jupyter Dash installed. Clone the repository and open the [Jupyter Dash app file](app.py). Ensure that the required packages mentioned in the previous sections are installed in your Python environment.
 
 The dataset used in this project should be named "survey_data_2019.csv" and placed in the same directory as the Jupyter Notebook file.
 
@@ -27,7 +27,7 @@ The Jupyter Dash application consists of the following components:
 
 ## Running the Dashboard
 
-To run the Jupyter Dash application, execute the provided code for the [app](JupyterDash/app.py). The application will launch a web server, and you can access the dashboard by opening the displayed URL in your web browser. The dashboard will be interactive, allowing you to explore the dataset and analyze the survey data using the provided features.
+To run the Jupyter Dash application, execute the provided code for the [app](app.py). The application will launch a web server, and you can access the dashboard by opening the displayed URL in your web browser. The dashboard will be interactive, allowing you to explore the dataset and analyze the survey data using the provided features.
 
 ## Acknowledgments
 
