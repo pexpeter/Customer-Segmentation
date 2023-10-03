@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 
 class Analysis():
     
-    def __init__(self, path = 'C:/Users/Admin 21/Downloads/Customer Segmentation/Data/SCFP2019.csv'):
+    def __init__(self, path = 'SCFP2019.csv'):
         self.path = path
     
     def data_input(self):
